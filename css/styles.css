@@ -3,4 +3,49 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+}
+
+.major-container {
+  margin: 0 2%;
+  width: 100%;
+}
+
+.main-container {
+  width: 1400px;
+}
+
+.topic {
+  color: hsl(233, 26%, 24%);
+  font-weight: normal;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.first-wrapper {
+  margin: 2em 1em 2em 0;
+}
+.wrapper {
+  margin: 2em 1em;
+}
+
+.showcase {
+  border-radius: 0.5em 0.5em 0 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 260px;
+  margin-bottom: 2em;
+}
+
+.content {
+  margin: 0.5em 2em;
+}
+
+.content h5 {
+  font-weight: normal;
 }
