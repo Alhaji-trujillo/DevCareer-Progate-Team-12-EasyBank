@@ -112,7 +112,7 @@ transition: width .3s;
   background-repeat: no-repeat;
   background-position: 700% -320%;
   z-index: -1;
-  margin-bottom: 0;
+  margin-bottom: 15em;
 }
 .phone-images{
     width: 100%;
