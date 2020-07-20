@@ -389,7 +389,11 @@ align-content: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     width: 20em;
+=======
+	width: 20em;
+>>>>>>> a05b9d0b98e0d8e814cfa070605a252058f7dc06
   }
 
 .first{
