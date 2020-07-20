@@ -200,6 +200,15 @@ transition: width .3s;
   color: hsl(233, 8%, 62%);
   cursor: pointer;
 }
+
+@media(max-width:375px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* Latest Articles */
 
 /***************Footer Section**************/
