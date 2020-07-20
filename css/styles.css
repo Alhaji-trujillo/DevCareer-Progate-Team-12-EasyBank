@@ -366,10 +366,9 @@ align-content: center;
   background-image: url("../images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 100% 0%;
-
-    
+  background-position: 100% 0%; 
 }
+
 .phone-images{
   width: 100%;
   height: 60em;
@@ -381,11 +380,16 @@ align-content: center;
   flex:0 0 100%;  
 }
 
+.container {
+  text-align: center;
+}
+
 .sub-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 20em;
   }
 
 .first{
@@ -415,7 +419,7 @@ align-content: center;
     flex-direction: column;
    }
 }
-@media screen and (max-width: 1024px) and (min-width: 375px) 	{
+@media screen and (max-width: 1024px) and (min-width: 481px) 	{
 
 .primary-btn{display: none;
   }
