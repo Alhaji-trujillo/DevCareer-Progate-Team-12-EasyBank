@@ -415,7 +415,7 @@ align-content: center;
     flex-direction: column;
    }
 }
-@media screen and (max-width: 1024px) and (min-width: 481px) 	{
+@media screen and (max-width: 1024px) and (min-width: 375px) 	{
 
 .primary-btn{display: none;
   }
