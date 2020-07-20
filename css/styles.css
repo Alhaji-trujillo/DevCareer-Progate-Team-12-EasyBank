@@ -208,6 +208,7 @@ transition: width .3s;
   width: 100%;
   background-color: #161827;
   padding: 2em;
+  margin: 0;
 }
 .footer-row{
   display:flex;
