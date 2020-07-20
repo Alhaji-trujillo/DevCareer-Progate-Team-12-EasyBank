@@ -201,14 +201,6 @@ transition: width .3s;
   cursor: pointer;
 }
 
-@media(max-width:375px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 /* Latest Articles */
 
 /***************Footer Section**************/
@@ -388,6 +380,14 @@ align-content: center;
   position: relative;
   flex:0 0 100%;  
 }
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 .first{
     margin-top: -35em;
     padding-right: 0em;
